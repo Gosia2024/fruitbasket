@@ -1,1 +1,3 @@
-<p>fruitlist works!</p>
+@for(item of fruitlist; track item.name; let last = $last){
+<p>{{last}}: {{item.name}}</p>
+}
