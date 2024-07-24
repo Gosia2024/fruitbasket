@@ -24,6 +24,6 @@ inputData = "";
 
 sendInputData(){
   //this.fruitname.emit(this.fruit.name)
-console.log(this.inputData);
+this.inputData = "Moin"
 }
 }
