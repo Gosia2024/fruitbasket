@@ -19,10 +19,7 @@ fontColorBad = 'red';
  
   
 addComment(comment:string, index:number){
-//this.fruitlist[index].reviews.push({
- // name: "Kevin",
- // text: comment,
-//})
+  this.fruitlistdata.addCommentToFruit(comment, index);
 }
 
 }
