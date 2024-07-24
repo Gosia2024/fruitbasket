@@ -58,8 +58,8 @@ fontColorBad = 'red';
     },
   ]
 
-addComment(comment:string){
-
+addComment(comment:string, index:number){
+console.log(comment)
 }
 
 }
