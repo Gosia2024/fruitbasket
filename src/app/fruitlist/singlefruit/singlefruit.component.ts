@@ -23,7 +23,7 @@ inputData = "";
 @Output()fruitname = new EventEmitter<string>();
 
 sendInputData(){
-  //this.fruitname.emit(this.fruit.name)
-this.inputData = "Moin"
+  this.fruitname.emit(this.inputData);
+
 }
 }
