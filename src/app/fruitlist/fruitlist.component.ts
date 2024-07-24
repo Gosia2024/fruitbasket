@@ -59,7 +59,10 @@ fontColorBad = 'red';
   ]
 
 addComment(comment:string, index:number){
-console.log(comment)
+this.fruitlist[index].reviews.push({
+  name: "Kevin",
+  text: comment,
+})
 }
 
 }
