@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './singlefruit.component.scss'
 })
 export class SinglefruitComponent {
-@Input("testNumber")fruitnumber = 0;
+@Input()fruitnumber = 0;
 }
