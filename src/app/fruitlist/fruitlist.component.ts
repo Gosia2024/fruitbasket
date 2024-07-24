@@ -15,7 +15,7 @@ fontColorGood = 'green';
 fontColorBad = 'red';
  
   fruitlist = [
-    ,
+    
     {
       name: "Banane",
       img:"banana.png",
