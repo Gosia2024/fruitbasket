@@ -17,7 +17,7 @@ export class SinglefruitComponent {
   reviews:[{name: "Mandy K.", text: "perfekt für Kuchen"},{name: "Olaf P.", text: "Kann man auch mal machen"}],
 };
 
-@Output()fruitname = new EventEmitter<string>();
+@Output("banana")fruitname = new EventEmitter<string>();
 
 emitName(){
   this.fruitname.emit(this.fruit.name)
