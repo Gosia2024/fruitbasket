@@ -24,6 +24,7 @@ inputData = "";
 
 sendInputData(){
   this.fruitname.emit(this.inputData);
+  this.inputData = "";
 
 }
 }
