@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { SinglefruitComponent } from './singlefruit/singlefruit.component';
+import { FruitlistdataService } from '../fruitlistdata.service';
 
 @Component({
   selector: 'app-fruitlist',
@@ -10,6 +11,8 @@ import { SinglefruitComponent } from './singlefruit/singlefruit.component';
   styleUrl: './fruitlist.component.scss'
 })
 export class FruitlistComponent {
+
+  fruitlistdata = inject(FruitlistdataService)
 
 fontColorGood = 'green';
 fontColorBad = 'red';
